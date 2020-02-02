@@ -1,7 +1,7 @@
 //EXPERCISE ONE
 
 var numbers = [22, 67, 33, 96, 88];
-//console.log(numbers[numbers.length]);
+console.log(numbers[numbers.length - 1]);
 //console.log(numbers.length);
 
 //EXPERCISE TWO
@@ -18,7 +18,7 @@ var numbers = [22, 67, 33, 96, 88];
 // Store 88 from the array into a new variable called specialNum
 
 let specialNum = 4;
-console.log(specialNum);
+//console.log(specialNum);
 //console.log(typeof specialNum);
 // if (specialNum !== "88") {
 //   console.log("true");
@@ -27,8 +27,18 @@ console.log(specialNum);
 // }
 
 //console.log(specialNum);
-specialNum = numbers[4];
-console.log(specialNum);
+// specialNum = numbers[4];
+// console.log(specialNum);
 
-specialNum = numbers[2];
-console.log(specialNum);
+// specialNum = numbers[2];
+// console.log(specialNum);
+
+// Exercise four
+
+let friendGroups = [
+  ["Harry", "Ron", "Hermione"],
+  ["Malfoy", "Crabbe", "Goyle"],
+  ["Andy", "Garry", "Ben"]
+];
+console.log(friendGroups[2][0]);
+//andy is the answer
